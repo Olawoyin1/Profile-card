@@ -1,0 +1,95 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 2px solid red; */
+    font-family: poppins;
+}
+
+@font-face {
+    font-family: poppins;
+    src: url("/Poppins-Regular.ttf");
+}
+
+
+
+h2{
+    font-size: 18px;
+    /* color: red; */
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 25px;
+    background-image: url("/images/bg-pattern-bottom.svg");
+    background-repeat: no-repeat;
+    background-position: 700px 200px;
+    background-color: hsl(185, 75%, 39%);
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+
+
+.opacity{
+    color: hsl(0, 0%, 59%);
+}
+
+.card{
+    width: 350px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 13px;
+    overflow: hidden;
+}
+
+.center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+}
+
+.text{
+    width: 100%;
+    padding: 1rem 0 0;
+    text-align: center;
+}
+
+.photo{
+    width: 100px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    margin-top: -48px;
+    overflow: hidden;
+    border: 5px solid white;
+}
+
+img{
+    width: 100%;
+    display: block;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 1.7rem;
+    border-top: 0.3px solid rgba(0, 0, 0, 0.15);
+    height: 6rem;
+}
+
+p{
+    margin-top: 0.5rem;
+    font-size: 14px;
+}
+
+.one h2{
+    margin-bottom: 5px;
+}
+
+.one span{
+    font-size: 14px;
+}
